@@ -13,6 +13,11 @@ h1 {
 	width: 100px;
 }
 
+.center {
+	margin: 0 auto;
+	width: 350px;
+}
+
 .resizeImage {
 	width: 200px;
 	height: 200px;
