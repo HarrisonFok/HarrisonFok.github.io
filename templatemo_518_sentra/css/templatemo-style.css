@@ -527,7 +527,7 @@ header {
 }
 
 #featured .item {
-  text-align: left;
+  text-align: left; /* center */
   position: relative;
   z-index: 10;
 }
