@@ -50,6 +50,7 @@ https://templatemo.com/tm-518-sentra
                         <!-- <li><a href="#video">Presentation</a></li> -->
                         <!-- <li><a href="#blog">Blog Entries</a></li> -->
                         <li><a href="#featured">My Certificates</a></li>
+                        <li><a href="#references">My References</a></li>
                         <li><a href="#extracurriculars">Extracurricular Activities</a></li>
                         <li><a href="#contact">Contact Me</a></li>
                     </ul>
@@ -155,7 +156,7 @@ https://templatemo.com/tm-518-sentra
                         <div class="item">
                             <div class="text-content">
                                 <p>
-                                    I was a Computer Science Co-op student at the University of Toronto at Scarborough specializing in Software Engineering. I have a passion for full-stack web development, and I have done internships for that in the past. Academically, I have succeeded in coding individually and collaboratively. I was part of a team that developed an Android application for flight booking, a Python GUI grading app, and a MERN stack video editing website, all of which resulted in success. Personally, I have strong communication skills, demonstrated through my leadership experience in various organizations/student clubs.
+                                    I was a Computer Science Co-op student at the University of Toronto at Scarborough specializing in Software Engineering. I have a passion for full-stack web development, and I have done internships for that in the past. Academically, I have succeeded in coding individually and collaboratively. I was part of a team that developed an Android application for flight booking, a Python GUI grading app, and a MERN stack video editing website, all of which resulted in success. Personally, I have strong communication skills, demonstrated through my leadership experience in letious organizations/student clubs.
                                 </p>
                             </div>
                             <div>
@@ -536,6 +537,25 @@ https://templatemo.com/tm-518-sentra
                 </div>
             </section>
 
+            <section id="references" class="content-section">
+                <div class="section-heading">
+                    <h1>My<br><em>References</em></h1>
+                </div>
+                <div class="section-content">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/ZipRecruiter_References.png" alt="">
+                                <!-- <strong>Android N Developer</strong> -->
+                                <div class="featured-button button">
+                                    <a href="images/ZipRecruiter_References.png">See</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section id="extracurriculars" class="content-section" style="margin-left: 5%;">
                 <div class="section-heading">
                     <h1>Volunteering</h1>
@@ -560,7 +580,7 @@ https://templatemo.com/tm-518-sentra
                                 <h3>SoCast Digital</h3>
                                 <span>July 2017 - August 2017</span>
                                 <p>Fixed a bug where the DataTables was not able to retrieve value, allowing a Twitter account to be removed with no error messages popping up</p>
-                                <p>Applied the query builder concept in PHP by making use of the Yii framework and by replacing direct variables with placeholder to prevent SQL injection</p> 
+                                <p>Applied the query builder concept in PHP by making use of the Yii framework and by replacing direct letiables with placeholder to prevent SQL injection</p> 
                                 <p>Volunteered once a week</p>
                             </div>
                         </div>
@@ -600,10 +620,10 @@ https://templatemo.com/tm-518-sentra
 
     <script>
         // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var navbarHeight = $('header').outerHeight();
+        let didScroll;
+        let lastScrollTop = 0;
+        let delta = 5;
+        let navbarHeight = $('header').outerHeight();
 
         $(window).scroll(function(event){
             didScroll = true;
@@ -617,7 +637,7 @@ https://templatemo.com/tm-518-sentra
         }, 250);
 
         function hasScrolled() {
-            var st = $(this).scrollTop();
+            let st = $(this).scrollTop();
             
             // Make sure they scroll more than delta
             if(Math.abs(lastScrollTop - st) <= delta)
